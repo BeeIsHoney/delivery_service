@@ -1,9 +1,11 @@
-package com.example.demo.user;
+package com.example.demo.user.dao;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.demo.user.entity.UserEntity;
 
 public interface UserDao extends JpaRepository<UserEntity, Long> {
 

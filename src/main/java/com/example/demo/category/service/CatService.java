@@ -1,8 +1,11 @@
-package com.example.demo.category;
+package com.example.demo.category.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+
+import com.example.demo.category.dao.CatDao;
+import com.example.demo.category.entity.CatEntity;
 
 @Service
 public class CatService {

@@ -1,4 +1,4 @@
-package com.example.demo.user;
+package com.example.demo.category.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,15 +13,13 @@ import lombok.Setter;
 @Setter
 @Getter
 @NoArgsConstructor
-@Table(name = "users")
-public class UserEntity {
-	
+@Table(name = "categories")
+public class CatEntity {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	private String username;
-	private String email;
-	
-
+	private String name;
+	private String description;
 }

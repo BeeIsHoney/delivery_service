@@ -1,8 +1,11 @@
-package com.example.demo.fav;
+package com.example.demo.fav.controller;
 
 import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
+
+import com.example.demo.fav.entity.FavEntity;
+import com.example.demo.fav.service.FavService;
 
 @RestController
 @RequestMapping("/favourites")

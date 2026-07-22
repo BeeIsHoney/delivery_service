@@ -1,8 +1,11 @@
-package com.example.demo.category;
+package com.example.demo.category.controller;
 
 import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
+
+import com.example.demo.category.entity.CatEntity;
+import com.example.demo.category.service.CatService;
 
 @RestController
 @RequestMapping("/categories")

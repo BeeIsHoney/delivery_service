@@ -1,13 +1,16 @@
-package com.example.demo.fav;
+package com.example.demo.fav.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.demo.category.CatEntity;
-import com.example.demo.category.CatDao;
-import com.example.demo.user.UserEntity;
-import com.example.demo.user.UserDao;
+import com.example.demo.category.dao.CatDao;
+import com.example.demo.category.entity.CatEntity;
+import com.example.demo.fav.dao.FavDao;
+import com.example.demo.fav.entity.FavEntity;
+import com.example.demo.user.dao.UserDao;
+import com.example.demo.user.entity.UserEntity;
+
 
 @Service
 public class FavService {

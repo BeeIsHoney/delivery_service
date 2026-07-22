@@ -1,7 +1,7 @@
-package com.example.demo.fav;
+package com.example.demo.fav.entity;
 
-import com.example.demo.category.CatEntity;
-import com.example.demo.user.UserEntity;
+import com.example.demo.category.entity.CatEntity;
+import com.example.demo.user.entity.UserEntity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,8 +9,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
